@@ -1,0 +1,12 @@
+{
+  "name": "main-package",
+  "version": "0.0.1",
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "dependencies": {
+    "@scoped/linked-package": "link:../linked-package"
+  },
+  "devDependencies": {
+    "typescript": "^3.0.0-dev.20180526"
+  }
+}
